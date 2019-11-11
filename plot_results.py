@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import fnmatch
 import os
 import statistics
+import sys
 from tabulate import tabulate
 
 def get_files_matching_pattern(dirname, pattern):
@@ -49,7 +50,11 @@ def print_stats(stats):
         print ""
     
 def main():
-    logdir = './logs/'
+    if (len(sys.argv[1]) == 1):
+        print("Usage: python plot_results.py LOG_DIRECTORY")
+        exit()
+
+    logdir = sys.argv[1]
     enabled_files = get_files_matching_pattern(logdir, '*enabled*')
     disabled_files = get_files_matching_pattern(logdir, '*disabled*')
     enabled_data = [read_data_from_log_file(os.path.join(logdir, f)) for f in enabled_files]
