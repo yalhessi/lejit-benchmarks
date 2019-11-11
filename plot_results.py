@@ -41,13 +41,13 @@ def test_data_to_stats(tests):
 
 def print_stats(stats):
     for bench in stats.keys():
-        print bench + ":"
-        print "\tmin: " + str(min(stats[bench]))
-        print "\tmax: " + str(max(stats[bench]))
-        print "\tmean: " + str(statistics.mean(stats[bench]))
-        print "\tmedian: " + str(statistics.median(stats[bench]))
-        print "\tstdev: " + str(statistics.stdev(stats[bench]))
-        print ""
+        print(bench + ":")
+        print("\tmin: " + str(min(stats[bench])))
+        print("\tmax: " + str(max(stats[bench])))
+        print("\tmean: " + str(statistics.mean(stats[bench])))
+        print("\tmedian: " + str(statistics.median(stats[bench])))
+        print("\tstdev: " + str(statistics.stdev(stats[bench])))
+        print("")
     
 def main():
     if (len(sys.argv[1]) == 1):
@@ -65,9 +65,9 @@ def main():
     for bench in enabled_stats.keys():
         table = [[f.__name__, f(enabled_stats[bench]), f(disabled_stats[bench])]
                         for f in [min, max, statistics.mean, statistics.median, statistics.stdev]]
-        print bench + ":"
-        print tabulate(table, headers=['stat', 'enabled', 'disabled'])
-        print ""
+        print(bench + ":")
+        print(tabulate(table, headers=['stat', 'enabled', 'disabled']))
+        print("")
     
 if __name__ == "__main__":
     main()
