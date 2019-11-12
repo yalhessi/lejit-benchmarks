@@ -1,0 +1,468 @@
+six-speed-for-of-object-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          37               38                  37                   37
+max          40               41                  38                   39
+mean         37.43            38.19               37.38                38.08
+median       37               38                  37                   38
+stdev         0.607279         0.525991            0.487832             0.307482
+
+six-speed-object-assign-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          205              206                 205                  206
+max          231              224                 212                  221
+mean         207.76           208.44              207.4                208.17
+median       207              208                 207                  208
+stdev          3.02888          2.68298             1.48392              1.86437
+
+six-speed-destructuring-simple-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          125             135                 125                  135
+max          137             142                 126                  137
+mean         125.39          136.15              125.16               136.01
+median       125             136                 125                  136
+stdev          1.53014         0.925235            0.368453             0.414266
+
+six-speed-for-of-object-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          140              140                 140                  140
+max          156              170                 149                  162
+mean         142.26           143.19              142.14               143.48
+median       142              142                 142                  143
+stdev          2.14909          3.53538             1.55063              3.23953
+
+six-speed-destructuring-simple-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          124              134                124                  133
+max          137              141                126                  137
+mean         125.36           135.26             125.09               135.21
+median       125              135                125                  135
+stdev          1.46694          1.12474            0.428646             0.742573
+
+six-speed-object-assign-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          116              119                 116                 120
+max          130              144                 145                 124
+mean         117.6            121.11              117.44              120.94
+median       117              121                 117                 121
+stdev          2.14617          2.60495             2.97233             0.885575
+
+six-speed-spread-literal-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          83                85                  83                   85
+max          90                92                 109                  120
+mean         84.01             86.05               84.12                86.54
+median       84                86                  84                   86
+stdev         0.810225          1.07661             2.55161              4.60878
+
+six-speed-spread-literal-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           84              85                      84               85
+max           93              91                      87               90
+mean          85.32           86.25                   85.15            86.24
+median        85              86                      85               86
+stdev          1.09064         0.880484                0.5              0.712373
+
+six-speed-for-of-array-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          123              123                 123                  123
+max          134              139                 135                  133
+mean         125.09           124.55              124.44               124.17
+median       124              124                 124                  124
+stdev          2.79644          2.38842             2.21254              1.85894
+
+six-speed-destructuring-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           135             152                 134                  152
+max           162             165                 163                  165
+mean          137.54          154.19              137.75               153.79
+median        136             154                 136                  154
+stdev           4.3564          2.18209             4.62181              1.51954
+
+six-speed-template_string-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           815              928                 815                  935
+max          1085             1045                1025                 1024
+mean          975.96           975.88              970.28               973.1
+median        986.5            981.5               970                  977
+stdev          29.3849          22.8457             24.9132              20.6268
+
+six-speed-super-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          1297             1303                1297                 1299
+max          1678             1802                1754                 1727
+mean         1437.39          1431.5              1440.63              1445.71
+median       1441             1414.5              1418                 1451
+stdev          77.6181          85.9518             91.9916              87.3233
+
+six-speed-super-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           50               52                 51                   52
+max           62               60                 54                   56
+mean          52.7             53.14              52.61                52.86
+median        53               53                 53                   53
+stdev          1.33712          1.17224            0.529818             0.603358
+
+six-speed-template_string-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           166             326                  167                 320
+max           363             352                  337                 339
+mean          331.14          332.85               329.98              332.29
+median        333             333                  333                 333
+stdev          17.3735          3.45644             16.7368              3.15363
+
+six-speed-for-of-array-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          255               264               256                  263
+max          272               277               260                  266
+mean         258.46            265.31            258.06               264.88
+median       258               265               258                  265
+stdev          2.19467           1.7448            0.951554             0.670896
+
+six-speed-rest-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          220              219                 220                  220
+max          248              245                 236                  237
+mean         225.5            225                 224.91               224.08
+median       225              224                 225                  224
+stdev          4.33333          4.57265             3.42921              3.64229
+
+six-speed-rest-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          10                10                 10                   10
+max          12                12                 11                   12
+mean         10.64             10.95              10.59                10.92
+median       11                11                 11                   11
+stdev         0.502921          0.35887            0.494311             0.338744
+
+six-speed-template_string_tag-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           45              45                     45                45
+max           48              48                     51                52
+mean          45.87           45.99                  45.71             46.08
+median        46              46                     46                46
+stdev          0.83672         0.703455               1.008             0.939374
+
+six-speed-template_string_tag-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          61               64                      61                64
+max          64               70                      62                68
+mean         61.42            65.48                   61.45             65.42
+median       61               65                      61                65
+stdev         0.571724         0.915412                0.5               0.81872
+
+six-speed-spread-generator-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           479             482                  479                  481
+max           574             545                  530                  504
+mean          486.8           484.81               483.1                484.05
+median        482             483                  481                  483
+stdev          16.0107          7.51926              6.8409               3.7642
+
+six-speed-object-literal-ext-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          51               53                  51                   53
+max          54               56                  52                   54
+mean         51.85            53.23               51.75                53.18
+median       52               53                  52                   53
+stdev         0.592461         0.489382            0.435194             0.386123
+
+six-speed-object-literal-ext-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          61                62                 61                    62
+max          65                77                 62                    74
+mean         61.59             63.02              61.48                 62.94
+median       61.5              63                 61                    63
+stdev         0.726066          1.57621            0.502117              1.22944
+
+six-speed-spread-generator-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          118              119                118                  119
+max          145              150                123                  123
+mean         119.79           120.68             119.25               120.25
+median       119              120                119                  120
+stdev          2.83305          3.12332            0.903137             0.770347
+
+six-speed-arrow-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          142              147                 142                  147
+max          153              155                 149                  149
+mean         144.49           147.77              144.2                147.62
+median       144              148                 144                  148
+stdev          1.43192          1.17941             1.12815              0.54643
+
+six-speed-regex-u-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          62               60                  62                   60
+max          66               66                  64                   62
+mean         62.98            61.21               62.83                61.11
+median       63               61                  63                   61
+stdev         0.602688         0.728843            0.403395             0.423907
+
+six-speed-regex-u-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          34               35                  34                    35
+max          37               37                  36                    38
+mean         35.19            35.34               35.06                 35.33
+median       35               35                  35                    35
+stdev         0.464823         0.496859            0.277798              0.53286
+
+six-speed-arrow-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           143             150                  144                 150
+max           170             163                  250                 171
+mean          147.35          152.48               146.87              153.12
+median        146             152                  146                 152
+stdev           5.3699          1.84489             10.5989              2.93457
+
+six-speed-bindings-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min         114                120               114                  120
+max         120                129               121                  122
+mean        114.58             121.01            114.48               120.78
+median      114                121               114                  121
+stdev         0.965883           1.4106            0.822413             0.578748
+
+six-speed-map-set-object-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           51               55                 51                   55
+max           57               62                 56                   59
+mean          53.38            56.5               53.18                56.32
+median        53               56                 53                   56
+stdev          1.12618          1.09637            0.845427             0.886259
+
+six-speed-defaults-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          328              247                328                  247
+max          363              260                330                  249
+mean         329.56           248.07             329.07               247.81
+median       329              248                329                  248
+stdev          3.76673          1.71891            0.355477             0.464823
+
+six-speed-spread-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           95               94                  95                   94
+max          103              101                 104                  102
+mean          96.59            96.15               96.43                96.04
+median        96               96                  96                   96
+stdev          1.47775          1.29002             1.35777              1.23026
+
+six-speed-spread-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          128              127                128                    127
+max          141              180                133                    133
+mean         129.58           128.99             129.15                 128.55
+median       129              128                129                    128
+stdev          1.74182          5.27524            0.808728               1.0088
+
+six-speed-defaults-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          272              272                272                   272
+max          296              290                274                   274
+mean         273.45           273.34             272.98                272.99
+median       273              273                273                   273
+stdev          2.70941          2.13778            0.375513              0.38912
+
+six-speed-map-set-lookup-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           291              314                287                 314
+max           315              328                296                 316
+mean          294.77           314.72             294.14              314.37
+median        294              314                294                 314
+stdev           2.8064           2.0404             1.23926             0.505625
+
+six-speed-map-set-lookup-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          19               19                  19                   19
+max          21               21                  21                   20
+mean         19.42            19.54               19.42                19.54
+median       19               20                  19                   20
+stdev         0.516006         0.520683            0.535224             0.500908
+
+six-speed-generator-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          59                63                 60                   63
+max          65                67                 63                   65
+mean         61.08             63.28              61.14                63.15
+median       61                63                 61                   63
+stdev         0.774336          0.62085            0.619873             0.385992
+
+six-speed-classes-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          86               92                  87                   92
+max          92               99                  90                   94
+mean         87.93            92.95               87.88                92.77
+median       88               93                  88                   93
+stdev         0.768772         0.957427            0.670896             0.565953
+
+six-speed-classes-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          105              114                105                  114
+max          112              122                107                  118
+mean         105.7            116.01             105.66               115.95
+median       106              116                106                  116
+stdev          0.84686          1.30651            0.496859             0.914253
+
+six-speed-generator-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           972              970                 972                  971
+max          1133             1254                1043                 1169
+mean          983.41           983.77              976.98               979.99
+median        975              973                 974                  973
+stdev          24.8519          35.5493             10.5188              26.4191
+
+six-speed-map-set-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          33                34                 33                   34
+max          37                36                 37                   38
+mean         34.11             34.38              34.04                34.4
+median       34                34                 34                   34
+stdev         0.447101          0.54643            0.634369             0.603023
+
+six-speed-map-set-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           436              437                437                   437
+max           511              579                528                   544
+mean          439.64           441.5              438.72                440.48
+median        438              439                438                   439
+stdev           9.6143          14.7686             9.06774              10.5959
+
+six-speed-map-set-object-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min           421             422                 421                  421
+max           489             458                 454                  430
+mean          424.93          424.85              423.42               423.94
+median        423             424                 423                  424
+stdev           8.3512          4.85627             3.28197              1.20454
+
+six-speed-arrow-declare-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          184              203                 182                 204
+max          204              214                 194                 207
+mean         186.99           205.44              186.91              205.28
+median       187              205                 187                 205
+stdev          2.45976          1.28959             1.89147             0.817486
+
+six-speed-arrow-declare-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          187              198                187                  198
+max          199              208                195                  202
+mean         188.29           200.18             187.92               200.02
+median       188              200                188                  200
+stdev          1.65325          1.25835            0.849004             0.828532
+
+six-speed-bindings-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          114              125                 114                 125
+max          126              134                 131                 127
+mean         114.62           125.37              114.7               125.18
+median       114              125                 114                 125
+stdev          1.69241          1.18624             2.33766             0.411452
+
+six-speed-arrow-args-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          201              211                  201                 211
+max          225              224                  302                 228
+mean         204.33           212.57               204.1               212.52
+median       202              212                  202                 212
+stdev          5.83278          1.99117             10.6851              2.53254
+
+six-speed-arrow-args-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          201              209                 201                  209
+max          225              225                 228                  223
+mean         202.72           210.9               203.44               210.01
+median       201              210                 201                  210
+stdev          4.08021          3.69411             5.55472              1.95657
+
+six-speed-map-string-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          216               227                216                  228
+max          276               241                277                  246
+mean         218.53            228.69             219.03               228.71
+median       217               228                217                  228
+stdev          6.79045           1.9106             9.12036              2.48346
+
+six-speed-bindings-compound-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min         108              119                 108                  119
+max         114              125                 110                  121
+mean        108.86           119.77              108.76               119.64
+median      109              120                 109                  120
+stdev         0.710953         0.885974            0.452155             0.502921
+
+six-speed-bindings-compound-es5:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          103              108                103                   108
+max          117              120                108                   119
+mean         103.64           109.16             103.52                109.07
+median       103              109                103                   109
+stdev          1.57967          1.58095            0.758521              1.60966
+
+six-speed-map-string-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          1357             1375                1357                 1376
+max          1575             1538                1531                 1536
+mean         1378.56          1398.63             1379.96              1392.38
+median       1362             1381.5              1362.5               1381
+stdev          36.9333          34.4922             37.6864              25.2502
+
+six-speed-destructuring-es6:
+stat      enabled-base    disabled-base    enabled-replaced    disabled-replaced
+------  --------------  ---------------  ------------------  -------------------
+min          497              513                 497                  512
+max          537              544                 507                  524
+mean         501.47           516.46              500.92               515.96
+median       501              516                 501                  516
+stdev          4.69785          4.29569             1.93156              1.98438
+
