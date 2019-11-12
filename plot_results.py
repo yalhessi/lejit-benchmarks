@@ -88,6 +88,7 @@ def main():
         enabledreplaced_stats = test_data_to_stats(enabledreplaced_data)
         disabledreplaced_stats = test_data_to_stats(disabledreplaced_data)
 
+        // TODO: Add difference between base and replaced stats
         for bench in enabledbase_stats.keys():
             table = [[f.__name__, f(enabledbase_stats[bench]), f(disabledbase_stats[bench]),
                                   f(enabledreplaced_stats[bench]), f(disabledreplaced_stats[bench])]
